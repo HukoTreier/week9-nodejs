@@ -3,11 +3,13 @@ server.js kõige tähtsam. server otsib seda faili, et rakendused serveri vahem�
 node package module (npm)- kogum valmis lahendusest, mida jagatakse
 start käsk package json-s paneb serveril rakenduse käima
 
+
+npm init -y käsk loob json faili, põhisätted serverile
 npm i express laeb peamised pakid alla
 npm start paneb serveri käima
 
 gitignore jätab kaustad vahele
-brauseris päring localhostile - localhost:3000
+brauseris päring localhostile - localhost:3000 või localhost:3000/
 Port, kus rakendus ootab päringut
 
 Koodi muutes serverile restart teha 
